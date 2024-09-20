@@ -5,5 +5,7 @@ I wrote this query on splunk search
 index="task2index" udp/* sourcetype="Firewall Logs (LOCAL)"
  | stats count by dstport
 -----------------------------------------------------------
-from the above query, i exctracted and detected the DoS anomaly from the firewall logs and then exported a report.
+
 ![Screenshot 2024-09-20 184133](https://github.com/user-attachments/assets/f2f5bae7-48ed-48ab-bd3d-8ac1ffad9a15)
+
+From the above query, i exctracted and detected the DoS anomaly from the firewall logs and then exported a report.
